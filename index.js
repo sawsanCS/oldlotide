@@ -11,11 +11,25 @@ const pigLatin = require('./pigLatin');
 const reverseString = require('./reverseString');
 const takeUntil = require('./takeUntil');
 const without = require ('./without');
-const moduleChecks = require('./moduleCheck');
+const moduleCh = require('./moduleCheck');
 const eqO= require('./eqObjects');
 const eqA= require('./eqArrays');
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle
+  head,
+  tail,
+  middle,
+  findKey,
+  findKeyByValue,
+  count,
+  countL,
+  letterP,
+  map,
+  pigLatin,
+  reverseString,
+  takeUntil,
+  without,
+  moduleCh,
+  eqO,
+  eqA
+
 };
